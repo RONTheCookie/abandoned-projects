@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="🏚️ Abandoned Projects will tell you which of your GitHub repos are inactive.">
+    <title>🏚️ Abandoned Projects</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="pinner-outer no-margin">
+    <main class="c pinner-1">
+        <h1 class="tc">🏚️ Abandoned Projects</h1>
+        <form>
+            <input type="text" class="card w-80" id="uname" placeholder="Your GitHub username" pattern="^[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$">
+            <button class="btn primary">Search</button>
+            <!-- <label for="show-archived">Show Archived?</label> -->
+            <!-- <input type="checkbox" id="show-archived"> -->
+        </form>
+        <div id="result"></div>
+    </main>
+    <footer class="c pinner-2 row">
+        <p class="no-margin gray col">
+            made by <a href="https://ckie.dev">ckie</a> with help from <a href="https://jlz.fun">jellz</a>
+        </p>
+        <p class="no-margin gray tr col">
+            archived repos are hidden
+        </p>
+    </footer>
+</body>
+<script src="cash.min.js"></script>
+<script src="index.js"></script>
+</html>
